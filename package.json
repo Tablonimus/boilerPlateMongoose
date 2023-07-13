@@ -1,0 +1,29 @@
+{
+
+  "name": "boilerplatemongoose",
+  "version": "1.0.0",
+  "description": "Boiler plate para comenzar un proyecto",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tablonimus/boilerPlateMongoose.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tablonimus/boilerPlateMongoose/issues"
+  },
+  "homepage": "https://github.com/Tablonimus/boilerPlateMongoose#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongodb": "^5.7.0",
+    "mongoose": "^7.3.4",
+    "nodemon": "^3.0.1"
+  }
+}
